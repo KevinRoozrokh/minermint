@@ -1,6 +1,20 @@
 # minermint
-A no code Ethereum ERC-20 or ERC-721 token generator - can mint ERC-20 Fixed tokens, ERC-20 Burnable tokens, ERC-20 Mintable tokens, ERC-20 Pausable tokens, ERC-20 Capped tokens, ERC-20 Multi-Function tokens, ERC-20 USDT tokens and ERC-721 full function tokens.
+A no code Ethereum ERC-20 or ERC-721 token generator 
 ---
+
+---
+
+Can mint:
+
+ERC-20 Fixed tokens<br>
+ERC-20 Burnable tokens<br>
+ERC-20 Mintable tokens<br>
+ERC-20 Pausable tokens<br>
+ERC-20 Capped tokens<br>
+ERC-20 Multi-Function tokens<br>
+ERC-20 USDT tokens<br>
+ERC-721 full function tokens<br>
+
 How to:
 
 To code a web app similar to the one at the domain https://btcminingco.com/minermint.html using HTML and Solidity, you can follow the following step-by-step guide:
