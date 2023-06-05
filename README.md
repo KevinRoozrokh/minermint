@@ -1,5 +1,5 @@
 # minermint
-A no code Ethereum ERC-20 or ERC-721 token generator
+A no code Ethereum ERC-20 or ERC-721 token generator - can mint ERC-20 Fixed tokens, ERC-20 Burnable tokens, ERC-20 Mintable tokens, ERC-20 Pausable tokens, ERC-20 Capped tokens, ERC-20 Multi-Function tokens, ERC-20 USDT tokens and ERC-721 full function tokens.
 ---
 How to:
 
