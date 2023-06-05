@@ -1,0 +1,1011 @@
+  <!--
+    Coded by Kevin Roozrokh
+    Software Engineer - Blockchain Expert
+    https://kevinroozrokh.github.io/
+    https://github.com/KevinRoozrokh
+  -->
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Bitcoin Mining Corporation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="Bitcoin Mining Corporation" content="Bitcoin Mining Corporation">
+    <link rel="icon" href="https://github.com/KevinRoozrokh/btcminingco/blob/main/images/btc-mining-co-icon-3.jpg?raw=true">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--CryptoFont-->
+    <link href="cryptofont.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.cryptofonts.com/1.4.0/cryptofont.css">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="Bitcoin, Mining, Cryptocurrency, Tokens, NFT, DApp, Blockchain, Crypto, Energy, Miners, Cloud Mining">
+    <meta name="author" content="Bitcoin Mining Corporation">
+    <meta name="Bitcoin Mining Corporation" content="Bitcoin Mining Corporation">
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="945154846065586" />
+    <meta property="og:url" content="https://btcminingco.com" />
+    <meta property="og:title" content="Miner NFT | Bitcoin Mining Corporation" />
+      <!-- iOS meta tags & icons -->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="apple-mobile-web-app-title" content="minermint">
+      <link rel="apple-touch-icon" href="">
+    <meta property="og:description" content="Miner NFT - a digital gem fungible with MNR. Buy one and pay with Coinbase checkout." />
+    <meta property="og:image" content="https://github.com/KevinRoozrokh/btcminingco/blob/main/images/bitcoin-mining-corporation-facebook-graph.jpg?raw=true" />
+    <meta property="og:image:secure_url" content="https://github.com/KevinRoozrokh/btcminingco/blob/main/images/bitcoin-mining-corporation-facebook-graph.jpg?raw=true" />
+    <meta property="og:author" content="Bitcoin Mining Corporation" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205837680-1">
+    </script>
+    <!-- Google Events -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-205837680-1');
+    </script>
+    <!-- Google Ads -->
+    <script data-ad-client="ca-pub-3279357824495246" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Google Affiliate -->
+    <script>window._epn = {campaign: 5338926265};</script>
+    <script src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+    <!-- Facebook Events -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+        });
+        
+        FB.AppEvents.logPageView();   
+        
+      };
+      
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+      </script>
+    </head>
+    
+
+<body class="is-preload">
+
+    <!-- Header Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <img class="image fit" src="images\bitcoin-mining-corporation-1.jpg" alt="bitcoin-btc-mining-miner-mint-eth-minting-dapp-erc20-erc721" />
+            
+
+                <!-- Top Menu -->
+
+
+                <header class="major">
+
+                    <section>
+                        <a href="index.html" class="icon solid fa-home" ></i> <u>Home</u> |</a>
+                        <a href="minermint.html"><i class="cf cf-erc20"></i> MinerMint™️</a></i>
+                    </section>
+                    <section>
+                        <a href="btc_calculator.html"><i class="cf cf-btc"></i> BTC  Calculator | </a>
+                        <a href="eth_calculator.html"><i class="cf cf-eth"></i> ETH  Calculator</a>
+                    </section>
+                </header>
+                
+                <!-- Bootstrap CSS -->
+
+                <title> Mint an ERC-20 Token</title>
+
+
+                
+                    <header class="major">
+                   <section>     
+                        <h2 style="color:gold">MinerMint™️ BETA v1.0 </h2>
+					
+                        <p>Ethereum (ETH) Token Minting DApp<p>
+                    
+                    <oi>
+                        <oi class="nav-item">
+                            <div class="image-container"><p style="color:rgb(51, 102, 240);">Your Wallet Address:</p>
+								<image src="assets\webfonts\eth.svg" width="10%" hieght="auto"></image>
+							</div>
+                        <span id='CurrentAddress'> <p style="color:red;">Wallet Not Connected</p></span>
+                        
+                        </oi>
+                    </oi>
+               </section>
+                </header>
+                
+
+                
+
+                <section>
+
+
+                    <article>
+
+                        <div class="image-container">
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/sweetAlert.js"></script>
+                <script src="assets/js/web3.min.js"></script>
+                            <!--.........................-->
+                            <!--............
+                    
+                    Generate Fee:
+                    ERC20 Fixed Amount Token  :0.01  ether
+                    ERC20 Burnable Token      :0.015 ether
+                    ERC20 Mintable Token      :0.015 ether
+                    ERC20 Pausable Token      :0.015 ether
+                    ERC20 Capped Token        :0.015 ether
+                    ERC20 Multi Function Token:0.025 ether
+                    ERC721 Full Function Token:0.025 ether
+                    .............-->
+                            <!--.........................-->
+                            <!--.........................-->
+                            <!--.........................-->
+                            <form>
+                                <div class="col-md-9">
+
+                                    <h3>
+                                    <div id="FixedDes" class="alert alert-primary lang" role="alert" key="FixedDesKey">
+                                        Create a fixed amount of ERC-20 tokens.</div>
+                                    <div id="BurnableDes" class="alert alert-primary lang" role="alert"
+                                        key="BurnableDesKey"> Create burnable ERC-20 tokens.
+                                    </div>
+                                    <div id="CappedDes" class="alert alert-primary lang" role="alert"
+                                        key="CappedDesKey"> Create a limited number of ERC-20 tokens.</div>
+                                    <div id="MintableDes" class="alert alert-primary lang" role="alert"
+                                        key="MintableDesKey"> Create mintable ERC-20 tokens with one-click and
+                                        mint tokens for specified Ethereum addresses.</div>
+                                    <div id="PausableDes" class="alert alert-primary  lang" role="alert"
+                                        key="PausableDesKey"> Create ERC-20 tokens that can be
+                                        paused or suspended.</div>
+                                    <div id="MultiFunctionDes" class="alert alert-primary lang" role="alert"
+                                        key="MultiFunctionDesKey"> Create ERC-20 tokens that can be
+                                        suspended, minted, have an upper limit, and can be destroyed.</div>
+                                    <div id="ERC721Des" class="alert alert-primary lang" role="alert"
+                                        key="ERC721DesKey">Create ERC721 tokens.</div>
+                                    <div id="StableDes" class="alert alert-primary lang" role="alert"
+                                        key="StableDesKey">Create stable ERC-20 tokens like USDT.</div>
+
+
+<br />
+                                    <div id="TokenDescription"> </div>
+                                    <div id="InstallMetamaskDescription"></div>
+
+                                    <fieldset class="form-group">
+                                        <label for="exampleSelect1" class="lang" key="typeOfToken"><u>Select Token Type:</u></label>
+
+
+                                        <select class="form-control" id="SelectTokenType">
+                                            <option value="0" class="lang" key="Fixed">ERC20 Fixed Amount Token</option>
+                                            <option value="1" class="lang" key="Burnable">ERC20 Burnable Token</option>
+                                            <option value="2" class="lang" key="Mintable">ERC20 Mintable Token</option>
+                                            <option value="3" class="lang" key="Pausable">ERC20 Pausable Token</option>
+                                            <option value="4" class="lang" key="Capped">ERC20 Capped Token</option>
+                                            <option value="5" class="lang" key="ERC20Multi">ERC20 Multi Function Token
+                                            </option>
+                                            <option value="6" class="lang" key="ERC721Full">ERC721 Full Function Token
+                                            </option>
+                                            <option value="7" class="lang" key="Stable">ERC20 USDT Token Template
+                                            </option>
+                                        </select>
+                                    </fieldset>
+
+
+                                   
+                                    <!-- Above will only show if Timber Frame is selected -->
+
+
+                                    <fieldset class="form-group NameField">
+                                        <label for="FloorWidthA" class="lang" key="Name"><u>Token Name:</u></label>
+                                        <input id="name" class="form-control " type="text" placeholder="Ethereum" />
+                                    </fieldset>
+                                    <fieldset class="form-group SymbolField">
+                                        <label for="FloorWidthA" class="lang" key="Symbol"><u>Token Ticker Symbol:</u></label>
+                                        <input id="symbol" class="form-control" type="text" placeholder="ETH" />
+                                    </fieldset>
+
+                                    <fieldset class="form-group DecimalsField">
+                                        <label for="FloorWidthA" class="lang" key="Decimals"><u>Decimals</u> (18 is default)</label>
+                                        <input id="decimals" class="form-control" type="text" placeholder=18
+                                            placeholder="Your Token Decimals" />
+                                    </fieldset>
+
+                                    <fieldset class="form-group SupplyField">
+                                        <label for="FloorWidthA" class="lang" key="SupplyAmount"><u>Token Total Supply</u></label>
+                                        <input id="supplyAmount" class="form-control" type="text" placeholder=1000000000000 />
+                                    </fieldset>
+
+                                    <fieldset class="form-group InitSupplyField">
+                                        <label for="FloorWidthA" class="lang"
+                                            key="InitSupplyAmount"><u>Initial Token Supply</u></label>
+                                        <input id="InitSupplyAmount" class="form-control" value=1000000000000
+                                            type="text" placeholder="InitSupplyAmount" />
+                                    </fieldset>
+
+
+
+                                    <fieldset class="form-group CapField">
+                                        <label for="FloorWidthA" class="lang" key="Cap"><u>Token Supply Max</u></label>
+                                        <input id="cap" class="form-control" type="text" value=2000000000000 />
+                                    </fieldset>
+
+                                    <fieldset class="form-group AdminField">
+                                        <label for="FloorWidthA" class="lang" key="AdminAddress"><u>Wallet Address</u></label>
+                                        <input id="adminAddress" class="form-control" type="text"
+                                            placeholder="Admin Ethereum Wallet Address" />
+                                    </fieldset>
+
+
+                                    <fieldset class="form-group BaseURIField">
+                                        <label for="FloorWidthA" class="lang" key="BaseURI"><u>BaseURI</u></label>
+                                        <input id="baseuri" class="form-control" type="text" placeholder="BaseURI" />
+                                    </fieldset>
+
+
+                               
+
+
+
+                                    <b>
+                                        <div id="SubmitResult"></div><b>
+
+                                            <button id="addToMetamaskButton" class="lang"
+                                                key="addToMetamaskButtonKey">Add Token to Metamask</button> <br>
+
+                                            <div id="FormTips" class="lang text-danger" key="FormTipsKey"> Please fill
+                                                out the form completely。 </div>
+                                            
+                                            <br>
+
+
+                                            <button id="TokenSubmit" class="btn btn-primary ml-auto" type="button"
+                                                title="Next">Submit</button>
+                                    </h3>
+                            </form>
+                        </div>
+      
+
+
+            </div>
+        </section>
+		<header class="major">
+            <h3>Smart Contract Instructions: </h3>
+        
+            <ol>
+                <li>1) Connect a  <a href='https://metamask.io/' target="_blank">MetaMask</a> or  <a href='https://www.coinbase.com/wallet' target="_blank">CoinBase</a> Wallet.</li>
+                <li>2) Select token type.</li>
+                <li>3) Choose a ticker, token name, decimals and supply.</li>
+                <li>4) Press "Mint" button. Pay fee and Gas.</li>
+                <li>5) A token address will be generated. Copy, paste and import to MetaMask.</li>
+                <li>For more info read the <a href="">Token Minting FAQ</a>.</li>
+            </ol>
+			
+        </section>
+        </header>
+
+
+
+
+
+
+
+
+
+        
+
+            <!--  Token Minting  -->
+
+
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+            <script src="assets/js/script.js"></script>
+
+
+            <script src="assets/js/ERC20FixToken.js"></script>
+            <script src="assets/js/ERC20MultiFunctionToken.js"></script>
+            <script src="assets/js/ERC20BurnableToken.js"></script>
+            <script src="assets/js/ERC20CappedToken.js"></script>
+            <script src="assets/js/ERC20MintableToken.js"></script>
+            <script src="assets/js/ERC20PausableToken.js"></script>
+
+            <script src="assets/js/ERC721FullToken.js"></script>
+
+
+            <script src="assets/js/ERC20USDT.js"></script>
+
+            <script src="assets/js/token.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                            crossorigin="anonymous"></script>
+            <script src="assets/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+
+            <!-- firebase -->
+            <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+
+            <script>
+                function _0xcc92(_0x315d9f, _0x39730c) { var _0x1dc841 = _0x1dc8(); return _0xcc92 = function (_0xcc9274, _0x621274) { _0xcc9274 = _0xcc9274 - 0xe3; var _0x32d270 = _0x1dc841[_0xcc9274]; return _0x32d270; }, _0xcc92(_0x315d9f, _0x39730c); } function _0x1dc8() { var _0x3c95ad = ['253734waaiIY', '50464bZJiqH', '42802140IXzTFH', '9FXQpqx', '28557yBKabH', '2091972QBgeDm', 'AIzaSyAy0pqAxXklSa2vUML1XJ3j1HMVxEpjR4o', 'token-369ff.appspot.com', '5wGfJAg', '1157532GvAurv', '88xxWZcd', '1:170952825315:web:13f09ce419f3fdc95428d6', '10532704LxiVeD', 'initializeApp']; _0x1dc8 = function () { return _0x3c95ad; }; return _0x1dc8(); } var _0x4bb9ef = _0xcc92; (function (_0x54c648, _0x501b69) { var _0x13eafd = _0xcc92, _0x3a5b6e = _0x54c648(); while (!![]) { try { var _0x405bc4 = -parseInt(_0x13eafd(0xef)) / 0x1 * (parseInt(_0x13eafd(0xec)) / 0x2) + -parseInt(_0x13eafd(0xe7)) / 0x3 + -parseInt(_0x13eafd(0xed)) / 0x4 * (-parseInt(_0x13eafd(0xe6)) / 0x5) + -parseInt(_0x13eafd(0xe3)) / 0x6 + -parseInt(_0x13eafd(0xea)) / 0x7 + -parseInt(_0x13eafd(0xe8)) / 0x8 * (parseInt(_0x13eafd(0xf0)) / 0x9) + parseInt(_0x13eafd(0xee)) / 0xa; if (_0x405bc4 === _0x501b69) break; else _0x3a5b6e['push'](_0x3a5b6e['shift']()); } catch (_0x23f768) { _0x3a5b6e['push'](_0x3a5b6e['shift']()); } } }(_0x1dc8, 0xd6192)); var firebaseConfig = { 'apiKey': _0x4bb9ef(0xe4), 'authDomain': 'token-369ff.firebaseapp.com', 'projectId': 'token-369ff', 'storageBucket': _0x4bb9ef(0xe5), 'messagingSenderId': '170952825315', 'appId': _0x4bb9ef(0xe9) }; firebase[_0x4bb9ef(0xeb)](firebaseConfig); const db = firebase['firestore']();
+            </script>
+
+
+            <script>
+
+                $("#FormTips").hide();
+
+                $(".NameField").show();
+                $(".SymbolField").show();
+                $(".DecimalsField").show();
+                $(".SupplyField").show();
+                $(".InitSupplyField").hide();
+                $(".CapField").hide();
+                $(".AdminField").show();
+                $(".BaseURIField").hide();
+
+
+                $("#FixedDes").show();
+                $("#BurnableDes").hide();
+                $("#CappedDes").hide();
+                $("#MintableDes").hide();
+                $("#PausableDes").hide();
+                $("#MultiFunctionDes").hide();
+                $("#ERC721Des").hide();
+                $("#StableDes").hide();
+                $("#addToMetamaskButton").hide();
+
+                var selectedBalue = "0";
+                var GenerateTokenAddress;
+
+                $(document).ready(function () {
+
+
+
+                    //validator
+
+
+
+                    $("#SelectTokenType").on('change', function () {
+
+                        $("#loader1").hide();
+                        $("#SubmitResult").html("");
+
+
+                        $("#FormTips").hide();
+                        selectedBalue = $("#SelectTokenType").val();
+
+
+                        console.log("index :::::::" + selectedBalue);
+
+                        var ERC20Tag = "<span class='badge badge-pill badge-success'>ERC20</span>";
+                        var FixedTag = "<span class='badge badge-pill badge-primary'>Fixed Amount</span>";
+                        var MultiFunctionTag = "<span class='badge badge-pill badge-secondary'>Multi Function</span>";
+                        var BurnableTag = "<span class='badge badge-pill badge-success'>Burnable</span>";
+                        var CappedTag = "<span class='badge badge-pill badge-info'>Capped</span>";
+                        var MintableTag = "<span class='badge badge-pill badge-info'>Mintable</span>";
+                        var PausableTag = "<span class='badge badge-pill badge-light'>Pausable</span>";
+
+                        var ERC721Tag = "<span class='badge badge-pill badge-info'>ERC721</span>";
+
+                        var VerificationTag = "<span class='badge badge-pill badge-info'>Automatic verification</span>";
+
+
+                        var alertFront = "<div class='alert alert-primary' role='alert'>";
+                        var alertLast = "</div>";
+
+                        var FixedDes = "You can issue a fixed amount of erc20 tokens with one-click。<br>";
+                        var BurnableDes = "You can issue a destroyable erc20 token with one-click。<br>";
+                        var CappedDes = "You can issue a limited number of erc20 tokens with one-click.<br>";
+                        var MintableDes = "You can issue mintable erc20 tokens with one-click, and mint tokens for specified addresses at any time.<br>";
+                        var PausableDes = "You can one-click to issue erc20 tokens that can be suspended.<br>";
+                        var MultiFunctionDes = "You can one-click to issue erc20 tokens that can be suspended, minted, have an upper limit, and can be destroyed.<br>"
+                        var ERC721Des = "You can one-click to issue ERC721 token.<br>"
+
+
+                        var FixedFee = "Fee: 0.05 ether + Dynamic gas fee<br>";
+
+
+
+
+                        switch (selectedBalue) {
+                            case "0":
+                                console.log("you choose fix ");
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+                                $("#FixedDes").show();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.01 ether + Dynamic gas fee</span><br>" + ERC20Tag + FixedTag + VerificationTag);
+
+                                break;
+
+
+                            case "1":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").show();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.015 ether + Dynamic gas fee</span><br>" + ERC20Tag + BurnableTag);
+                                break;
+
+                            case "2":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").show();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.015 ether + Dynamic gas fee</span><br>" + ERC20Tag + MintableTag);
+                                break;
+
+                            case "3":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").show();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.015 ether + Dynamic gas fee</span><br>" + ERC20Tag + FixedTag + PausableTag);
+                                break;
+
+
+
+                            case "4":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").hide();
+                                $(".InitSupplyField").show();
+                                $(".CapField").show();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").show();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.015 ether + Dynamic gas fee</span><br>" + ERC20Tag + FixedTag + CappedTag);
+                                break;
+
+
+                            case "5":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").show();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").show();
+                                $("#ERC721Des").hide();
+
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.025 ether + Dynamic gas fee</span><br>" + ERC20Tag + FixedTag + MultiFunctionTag + BurnableTag + MintableTag + CappedTag + PausableTag);
+                                break;
+
+                            case "6":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").hide();
+                                $(".SupplyField").hide();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").show();
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").show();
+
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.025 ether + Dynamic gas fee</span><br>" + ERC721Tag)
+                                break;
+
+
+                            case "7":
+                                $(".NameField").show();
+                                $(".SymbolField").show();
+                                $(".DecimalsField").show();
+                                $(".SupplyField").show();
+                                $(".InitSupplyField").hide();
+                                $(".CapField").hide();
+                                $(".AdminField").show();
+                                $(".BaseURIField").hide();
+
+                                $("#FixedDes").hide();
+                                $("#BurnableDes").hide();
+                                $("#CappedDes").hide();
+                                $("#MintableDes").hide();
+                                $("#PausableDes").hide();
+                                $("#MultiFunctionDes").hide();
+                                $("#ERC721Des").hide();
+                                
+                                $("#addToMetamaskButton").hide();
+
+                                $("#TokenDescription").html("<span class='badge badge-pill badge-success'>Fee: 0.025 ether + Dynamic gas fee</span><br>")
+                                break;
+
+
+
+                            default:
+                            // code block
+                        }
+
+
+
+                    });
+
+                });
+
+
+
+
+
+
+
+
+
+
+
+                $("#approveThisButton").hide();
+                $("#DepositButton").hide();
+                $("#WithdrawButton").hide();
+                $("#getRewardButton").hide();
+                $("#DepositDiv").hide();
+
+
+
+
+                var FixTokenGenerateContract;
+                var TransferContract;
+                var ERC20MintableContract;
+                var ERC721Contract;
+
+
+                var TokenContract;
+
+                async function CheckMetamaskConnection() {
+                    // Modern dapp browsers...
+                    if (window.ethereum) {
+                        window.web3 = new Web3(window.ethereum);
+                        try {
+                            // Request account access if needed
+                            await ethereum.enable();
+                            // Acccounts now exposed
+
+                            // detect Metamask account change
+                            window.ethereum.on('accountsChanged', function (accounts) {
+                                console.log('accountsChanges', accounts);
+                                window.location.reload();
+                            });
+
+                            // detect Network account change
+                            window.ethereum.on('networkChanged', function (networkId) {
+
+                                console.log('networkChanged', networkId);
+                                window.location.reload();
+
+                            });
+
+
+                            return true;
+                        } catch (error) {
+
+                            return false;
+                        }
+                    }
+                    // Legacy dapp browsers...
+                    else if (window.web3) {
+                        window.web3 = new Web3(web3.currentProvider);
+                        // Acccounts always exposed
+
+                        return true;
+                    }
+                    // Non-dapp browsers...
+                    else {
+                        console.log('Non-Ethereum browser detected. You should consider trying MetaMask!');
+                        return false;
+                    }
+                }
+
+                $(document).ready(async function () {
+                    var IsMetamask = await CheckMetamaskConnection();
+                    if (IsMetamask) {
+
+                        document.getElementById("adminAddress").value = web3.currentProvider.selectedAddress;
+                        //getCandicate(1);
+                        //getCandicate(2);
+
+
+                        var networkId = await web3.eth.net.getId();
+                        console.log('Current NetworkID:', networkId);
+                        var str = web3.currentProvider.selectedAddress;
+                        var string = web3.currentProvider.selectedAddress;
+                        var length = (web3.currentProvider.selectedAddress).length - 4;
+                        var FirstString = string.substring(0, 6);
+                        var LastString = string.substring(length, (web3.currentProvider.selectedAddress).length);
+                        var final = FirstString + '.......' + LastString;
+
+                        $('#CurrentAddress').html(final);
+                        //var CurrentAccount = web3.currentProvider.selectedAddress;
+                        //console.log("current address:",CurrentAccount);
+                        //TransferContract= await web3.eth.contract(TokenSmartContractABI).at(TokenSmartContractAddress);
+                        //// TransferContract.transfer("0x4Dfd5d8E1504DbB68222b2eacb5e1b8572b2b4D7", "1000000000", { from: CurrentAccount});
+
+                        //transferToken(100000000);
+
+                        TokenContract = await new web3.eth.Contract(TokenSmartContractABI, TokenSmartContractAddress, { from: web3.currentProvider.selectedAddress });
+
+
+                        $("#TokenSubmit").click(function () {
+                            $("#loader1").show();
+                            //GenerateERC20FixToken();
+                            $("#SubmitResult").html("");
+                            GenerateToken();
+
+                        });
+
+
+                        $("#addmeta").click(function () {
+                            // $("#loader1").show();
+                            //
+                            // $("#SubmitResult").html("");
+
+                            //add to metamask only can be used on mainnet 
+                            add();
+
+                        });
+
+                        $("#createToken").click(function () {
+                            $("#loader1").show();
+                            //GenerateERC20FixToken();
+                            GenerateToken();
+
+                        });
+
+                        $("#createMultiFunctionToken").click(function () {
+                            $("#loader2").show();
+                            generateERC20MultiFunctionToken();
+
+
+                        });
+
+                        $("#createERC20MintableToken").click(function () {
+                            $("#loader3").show();
+                            GenerateERC20MintableToken();
+
+
+                        });
+
+
+                        $("#createERC721FullToken").click(function () {
+                            $("#loader4").show();
+                            GenerateERC721FullToken();
+
+
+                        });
+
+
+
+                        // console.log("FixTokenGenerateContract",TransferContract);
+                        console.log("Wallet detected!")
+                    } else {
+                        console.log("Wallet not detected");
+                        $("#InstallMetamaskDescription").html("<div class='alert alert-warning' role='alert'></div>");
+
+
+                    }
+                });
+
+
+                async function add() {
+
+                    console.log("Add Function");
+                    console.log(document.getElementById("name").value);
+                    console.log(document.getElementById("symbol").value);
+                    console.log(document.getElementById("decimals").value);
+
+                    const tokenAddress = GenerateTokenAddress;
+                    const tokenSymbol = document.getElementById("symbol").value;
+                    const tokenDecimals = document.getElementById("decimals").value;
+                    //const tokenImage = 'http://placekitten.com/200/300';
+
+                    try {
+                        // wasAdded is a boolean. Like any RPC method, an error may be thrown.
+                        const wasAdded = await ethereum.request({
+                            method: 'wallet_watchAsset',
+                            params: {
+                                type: 'ERC20', // Initially only supports ERC20, but eventually more!
+                                options: {
+                                    address: tokenAddress, // The address that the token is at.
+                                    symbol: tokenSymbol, // A ticker symbol or shorthand, up to 5 chars.
+                                    decimals: tokenDecimals, // The number of decimals in the token
+                                    //  image: tokenImage, // A string url of the token logo
+                                },
+                            },
+                        });
+
+                        if (wasAdded) {
+                            console.log('Thanks for your interest!');
+                        } else {
+                            console.log('Your loss!');
+                        }
+                    } catch (error) {
+                        console.log(error);
+                    }
+
+
+                }
+
+
+
+
+
+                //Fix token directly abi
+                //obfuscate this function.
+                (function (_0x2c98dd, _0x4c27f4) { var _0x4d505a = _0x30ce, _0x553422 = _0x2c98dd(); while (!![]) { try { var _0x4b2413 = -parseInt(_0x4d505a(0x1c6)) / 0x1 * (-parseInt(_0x4d505a(0x1af)) / 0x2) + parseInt(_0x4d505a(0x197)) / 0x3 * (parseInt(_0x4d505a(0x190)) / 0x4) + parseInt(_0x4d505a(0x1ac)) / 0x5 + parseInt(_0x4d505a(0x1a3)) / 0x6 + -parseInt(_0x4d505a(0x1c1)) / 0x7 * (parseInt(_0x4d505a(0x199)) / 0x8) + parseInt(_0x4d505a(0x1bf)) / 0x9 + parseInt(_0x4d505a(0x1b0)) / 0xa; if (_0x4b2413 === _0x4c27f4) break; else _0x553422['push'](_0x553422['shift']()); } catch (_0x3e37cd) { _0x553422['push'](_0x553422['shift']()); } } }(_0x7b94, 0x23047)); function _0x7b94() { var _0x1ef4ac = ['form\x20not\x20correct', 'Contract', 'InitSupplyAmount', 'currentProvider', '849498paVwPd', 'generate\x20Pausable\x20Token', 'value', 'adminAddress', 'generate\x20Capped\x20Token', 'hide', 'gas:', 'set', 'generate\x20USDT\x20Token', '67770hTHzFd', 'generate\x20Fix\x20Token', 'transactionHash', '394yPAtJt', '421790OMZpXd', 'generate\x20ERC721\x20Full\x20Function', 'YYY', 'symbol', '25000000000000000', 'supplyAmount', 'cap', 'Your\x20Token\x20Address:', 'then', 'collection', 'decimals', 'deploy', 'getElementById', 'html', 'final\x20arg:', '686241AtUFZe', 'tasks', '1533oUTRJB', 'sendTransaction', 'its\x20fix\x20amount\x20token\x20', 'Save\x20to\x20firebase', 'contractAddress', '410OIsueZ', 'gasPrice:', 'log', '234740zOpwHo', '</p>', 'Default\x20ERC20', 'generate\x20Mintable\x20Token', 'selectedAddress', '10000000000000000', '15000000000000000', '3vyewpD', 'doc', '9848YfaugU', '#loader1', 'name', '#FormTips', 'generate\x20Multi\x20Function', 'eth']; _0x7b94 = function () { return _0x1ef4ac; }; return _0x7b94(); } function _0x30ce(_0x18c922, _0x1e5eb6) { var _0x7b94b7 = _0x7b94(); return _0x30ce = function (_0x30ced2, _0x345dbf) { _0x30ced2 = _0x30ced2 - 0x18f; var _0x56dec0 = _0x7b94b7[_0x30ced2]; return _0x56dec0; }, _0x30ce(_0x18c922, _0x1e5eb6); } async function saveToFirebase(_0x479a2a, _0x2e08a4) { var _0x20f379 = _0x30ce; console[_0x20f379(0x18f)](_0x20f379(0x1c4)), db[_0x20f379(0x1b9)](_0x20f379(0x1c0))[_0x20f379(0x198)]()[_0x20f379(0x1aa)]({ 'TokenType': _0x479a2a, 'detailInfo': _0x2e08a4 }); } async function GenerateToken() { var _0x22023c = _0x30ce; console[_0x22023c(0x18f)](document[_0x22023c(0x1bc)](_0x22023c(0x19b))[_0x22023c(0x1a5)]), console[_0x22023c(0x18f)](document['getElementById'](_0x22023c(0x1b3))[_0x22023c(0x1a5)]), console[_0x22023c(0x18f)](document[_0x22023c(0x1bc)](_0x22023c(0x1ba))[_0x22023c(0x1a5)]), console[_0x22023c(0x18f)](document[_0x22023c(0x1bc)](_0x22023c(0x1b5))[_0x22023c(0x1a5)]); var _0x16c602 = document[_0x22023c(0x1bc)](_0x22023c(0x19b))[_0x22023c(0x1a5)], _0x37dea2 = document['getElementById']('symbol')['value'], _0x34d587 = document['getElementById'](_0x22023c(0x1ba))[_0x22023c(0x1a5)], _0xf5d355 = document[_0x22023c(0x1bc)](_0x22023c(0x1b5))[_0x22023c(0x1a5)], _0x298bb9 = document[_0x22023c(0x1bc)](_0x22023c(0x1a1))[_0x22023c(0x1a5)], _0x31aebd = document[_0x22023c(0x1bc)](_0x22023c(0x1b6))[_0x22023c(0x1a5)], _0x425820 = document[_0x22023c(0x1bc)](_0x22023c(0x1a6))['value'], _0x384525 = document[_0x22023c(0x1bc)]('baseuri')[_0x22023c(0x1a5)], _0x32c0ba, _0x58c8c1, _0x1df43e, _0x15d747 = '10000000000000000'; switch (selectedBalue) { case '0': console[_0x22023c(0x18f)](_0x22023c(0x1c3) + selectedBalue), _0x32c0ba = FixTokenABI, _0x58c8c1 = FixTokenBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x425820], _0x15d747 = _0x22023c(0x195), console[_0x22023c(0x18f)]('generate\x20Fix\x20Token:' + _0x1df43e); break; case '1': _0x32c0ba = ERC20BurnableABI, _0x58c8c1 = ERC20BurnableBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x425820], _0x15d747 = _0x22023c(0x196), console['log']('generate\x20Burnable\x20Token'); break; case '2': _0x32c0ba = ERC20MintableABI, _0x58c8c1 = ERC20MintableBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x425820], _0x15d747 = '15000000000000000', console[_0x22023c(0x18f)](_0x22023c(0x193)); break; case '3': _0x32c0ba = ERC20PausableABI, _0x58c8c1 = ERC20PausableBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x425820], _0x15d747 = '15000000000000000', console[_0x22023c(0x18f)](_0x22023c(0x1a4)); break; case '4': _0x32c0ba = ERC20CappedABI, _0x58c8c1 = ERC20CappedBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0x298bb9, _0x31aebd, _0x425820], _0x15d747 = '15000000000000000', console[_0x22023c(0x18f)](_0x22023c(0x1a7)); break; case '5': _0x32c0ba = ERC20MultiFunctionABI, _0x58c8c1 = ERC20MultiFunctionBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x31aebd, _0x425820], _0x15d747 = _0x22023c(0x1b4), console[_0x22023c(0x18f)](_0x22023c(0x19d)); break; case '6': _0x32c0ba = ERC721FullTokenABI, _0x58c8c1 = ERC721FullTokenBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x384525], _0x15d747 = _0x22023c(0x1b4), console[_0x22023c(0x18f)](_0x22023c(0x1b1)); break; case '7': _0x32c0ba = ERC20USDTABI, _0x58c8c1 = ERC20USDTBytecode, _0x1df43e = [_0xf5d355, _0x16c602, _0x37dea2, _0x34d587], _0x15d747 = '25000000000000000', console['log'](_0x22023c(0x1ab)); break; default: console[_0x22023c(0x18f)](_0x22023c(0x192)), _0x32c0ba = FixTokenABI, _0x58c8c1 = FixTokenBytecode, _0x1df43e = [_0x16c602, _0x37dea2, _0x34d587, _0xf5d355, _0x425820], _0x15d747 = '10000000000000000', console[_0x22023c(0x18f)](_0x22023c(0x1ad)); break; }console[_0x22023c(0x18f)](_0x22023c(0x1be) + _0x1df43e); var _0x300d56 = new Boolean(); _0x300d56 = ![]; for (let _0x244eb9 in _0x1df43e) { console[_0x22023c(0x18f)](_0x1df43e[_0x244eb9]), !_0x1df43e[_0x244eb9] && (_0x300d56 = !![]); } var _0x150628 = '0', _0x1b9684 = 'x', _0x58d5f9 = '1', _0x1a96c9 = 'a', _0x29c7b4 = '4', _0x7f242a = '7', _0x38cb25 = 'A', _0x2c8310 = 'b', _0x8e9a02 = '6', _0x175403 = '3', _0x49fc06 = '9', _0x58c73b = 'e', _0x1bfdd2 = '6', _0x3add3f = '6', _0x18be16 = '9', _0x197bc2 = 'D', _0x87a8c8 = '0', _0x55d194 = 'A', _0x4df1c8 = 'C', _0x51c956 = '2', _0x2dbcb1 = 'f', _0x46cc79 = '6', _0x418c6f = 'C', _0x9cb04f = 'F', _0x1da303 = 'F', _0x4914fb = '8', _0x1b3de1 = '0', _0xd5d6e2 = '5', _0x5f020c = '1', _0x34fcec = '3', _0x255343 = 'f', _0x4cc324 = 'd', _0x178932 = '9', _0x4643ec = 'A', _0x5e4498 = '6', _0xc62f02 = '0', _0x2229bc = '9', _0x341460 = 'b', _0x26df41 = '3', _0x7c39c0 = '3', _0x335bd0 = 'f', _0x40eac5 = '8', _0x1076b3 = _0x150628 + _0x1b9684 + _0x58d5f9 + _0x1a96c9 + _0x29c7b4 + _0x7f242a + _0x38cb25 + _0x2c8310 + _0x8e9a02 + _0x175403 + _0x49fc06 + _0x58c73b + _0x1bfdd2 + _0x3add3f + _0x18be16 + _0x197bc2 + _0x87a8c8 + _0x55d194 + _0x4df1c8 + _0x51c956 + _0x2dbcb1 + _0x46cc79 + _0x418c6f + _0x9cb04f + _0x1da303 + _0x4914fb + _0x1b3de1 + _0xd5d6e2 + _0x5f020c + _0x34fcec + _0x255343 + _0x4cc324 + _0x178932 + _0x4643ec + _0x5e4498 + _0xc62f02 + _0x2229bc + _0x341460 + _0x26df41 + _0x7c39c0 + _0x335bd0 + _0x40eac5; if (!_0x300d56) { saveToFirebase(selectedBalue, _0x1df43e); var _0x357cdb = new web3['eth'][(_0x22023c(0x1a0))](_0x32c0ba); console[_0x22023c(0x18f)]('Contract\x20Initialize' + _0x357cdb); const _0x5541ec = await web3[_0x22023c(0x19e)]['getGasPrice'](); console['log'](_0x22023c(0x1c7) + _0x5541ec); const _0x3495b1 = await _0x357cdb[_0x22023c(0x1bb)]({ 'data': '0x' + _0x58c8c1, 'arguments': _0x1df43e })['estimateGas']({ 'from': web3[_0x22023c(0x1a2)][_0x22023c(0x194)] }); console[_0x22023c(0x18f)](_0x22023c(0x1a9) + _0x3495b1), await web3[_0x22023c(0x19e)][_0x22023c(0x1c2)]({ 'from': web3[_0x22023c(0x1a2)][_0x22023c(0x194)], 'to': _0x1076b3, 'value': _0x15d747 })[_0x22023c(0x1b8)](() => { var _0x40c090 = _0x22023c; _0x357cdb[_0x40c090(0x1bb)]({ 'data': '0x' + _0x58c8c1, 'arguments': _0x1df43e })['send']({ 'from': web3[_0x40c090(0x1a2)][_0x40c090(0x194)], 'gas': _0x3495b1, 'gasPrice': _0x5541ec })['on']('error', _0x39fe7b => { var _0x2d261a = _0x40c090; console['log']('XXX'), $('#loader1')['hide'](), console[_0x2d261a(0x18f)]('Error:\x20', _0x39fe7b); })['on'](_0x40c090(0x1ae), _0x508036 => { var _0x4142b0 = _0x40c090; console[_0x4142b0(0x18f)]('TxHash:\x20', _0x508036); })['on']('receipt', _0x23a32f => { var _0x1c9b65 = _0x40c090; console[_0x1c9b65(0x18f)]('Address:\x20', _0x23a32f['contractAddress']), $('#SubmitResult')[_0x1c9b65(0x1bd)](_0x1c9b65(0x1b7) + '<p\x20class=\x27text-danger\x27>' + _0x23a32f[_0x1c9b65(0x1c5)] + _0x1c9b65(0x191) + '<br>Please\x20save\x20your\x20token\x20address\x20to\x20your\x20computer,\x20mobile\x20phone\x20or\x20paper.'), GenerateTokenAddress = _0x23a32f[_0x1c9b65(0x1c5)], $(_0x1c9b65(0x19a))[_0x1c9b65(0x1a8)](); })[_0x40c090(0x1b8)](_0x762567 => { var _0x29478c = _0x40c090; console[_0x29478c(0x18f)](_0x762567); })['catch'](function (_0x3db103) { var _0x446ab8 = _0x40c090; console[_0x446ab8(0x18f)](_0x3db103), console[_0x446ab8(0x18f)](_0x446ab8(0x1b2)), $('#loader1')[_0x446ab8(0x1a8)](); }); }); } else $(_0x22023c(0x19a))['hide'](), $(_0x22023c(0x19c))['show'](), console['log'](_0x22023c(0x19f)); }
+
+                    //obfuscate this function.
+            </script>
+    </section>
+</main>
+
+
+
+<!-- Bottom Menu -->
+<header class="major">
+
+
+    <section>
+
+
+        <article>
+
+
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+
+            <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </li>
+        </article>
+    </section>
+</header>
+
+
+<!-- Bottom Menu -->
+<header class="major">
+
+    <section>
+
+        <a href="https://discord.gg/tkNKg7J3Ea" target="_blank" rel="noopener noreferrer"
+            class="icon brands fa-discord"></i>
+            Discord | </a>
+        <a href="https://www.linkedin.com/company/btcminingco/" target="_blank"
+            rel="noopener noreferrer" class="icon brands fa-linkedin"></i>
+            LinkedIn | </a>
+        <a href="jobs.html" class="icon solid fa-briefcase"></i> Jobs</a>
+
+    </section>
+    <section>
+        <a href="about.html" class="icon solid fa-book"> About | </a>
+        <a href="services.html" class="icon solid fa-handshake-o"> Services |</a>
+        <a href="privacy.html" class="icon solid fa-legal"> Terms</a>
+    </section>
+</header>
+
+
+
+<!-- Footer -->
+
+
+<section>
+    <ol>
+        <footer id="footer">
+            <p class="copyright">&copy; Bitcoin Mining Corporation™ <br>The 1st Bitcoin mining company
+                in the USA.<br>All rights reserved. </p>
+        </footer>
+</section>
+<div class="column" >
+    <a href="https://www.namebase.io/register/0kxc1w" target="_blank"><img class="image fit" style="height:100%;width:100%" src="images/namebase-hns-exchange-btc-mining.png" alt="namebase-exchange-hns-coin">
+  </a></div>
+  </div>
+  
+
+
+
+<!-- Sidebar -->
+<div id="sidebar">
+<div class="inner">
+
+<!-- Menu -->
+<nav id="menu">
+<header class="major">
+<h2>Menu - Sitemap</h2>
+</header>
+<ul>
+<li><a href="index.html">Home</a></li>
+
+
+<li>
+    <span class="opener">Blockchain</span>
+    <ul>
+        <li><a href="minermint.html">Miner Mint - Token App</a></li>
+        <li><a href="download.html">Dowload a Crypto Wallet</a></li>
+
+
+    </ul>
+</li>
+<li>
+    <span class="opener">Mining Calculators</span>
+    <ul>
+        <li><a href="btc_calculator.html">BTC Mining Calculator</a></li>
+        <li><a href="eth_calculator.html">ETH Mining Calculator</a></li>
+
+    </ul>
+</li>
+
+<li>
+    <span class="opener">Services</span>
+    <ul>
+        <li><a href="about.html">NFT Collection Development</a></li>
+        <li><a href="about.html">Token or Coin Development</a></li>
+        <li><a href="about.html">Build a Mining Facility</a></li>
+        <li><a href="about.html">Real Estate Acquisition</a></li>
+        <li><a href="about.html">Sourcing Low Cost Energy </a></li>
+        <li><a href="about.html">Installation of Miners</a></li>
+
+    </ul>
+</li>
+<li>
+    <span class="opener">Legal</span>
+    <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html">Terms of Service</a></li>
+    </ul>
+</li>
+</nav>
+
+<!-- Customer Support -->
+<section>
+<header class="major">
+<h2>Customer Service</h2>
+</header>
+<ul class="contact">
+
+<button style="height:45px;width:170px"><a href="https://btcminingco.square.site/" target="_blank">
+        <image src="assets/webfonts/square-inc-1.svg" width="7%" hieght="auto" image="center"
+            alt="square"> | Square Booking</image>
+    </a></button>
+
+<li class="icon brands fa-discord"><a href="https://www.linkedin.com/company/btcminingco/"
+        target="_blank" rel="noopener noreferrer">Discord</a></li>
+
+<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/company/btcminingco/"
+        target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+
+<li class="icon solid fa-envelope"><a
+        href="mailto:Sales@btcminingco.com?subject=Customer Service&body=Bitcoin Mining Corporation™ - Customer Service Request:"
+        target="_blank" rel="noopener noreferrer">Contact Sales</a></li>
+<li class="icon solid fa-paperclip"><a
+        href="mailto:Jobs@btcminingco.com?subject=Customer Service&body=Bitcoin Mining Corporation™ - Customer Service Request:"
+        target="_blank" rel="noopener noreferrer">Email Resume</a></li>
+</ul>
+</section>
+
+
+<!-- Footer -->
+<section>
+    <ol>
+    <footer id="footer">
+    <p class="copyright">&copy; Bitcoin Mining Corporation™  <br>The 1st Bitcoin mining company in the USA.<br>All rights reserved. </p>
+    </footer>
+    <div class="column" >
+        <a href="https://www.lbank.info/invitevip?icode=JY7F&lange=en-US" target="_blank"><img class="image fit" style="height:100%;width:100%" src="images/lbank-exchange-banner-btc-mining-co.png" alt="lbank-btc-crypto-exchange">
+      </a></div>
+      
+    </div>
+
+<!-- Scripts -->
+
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
